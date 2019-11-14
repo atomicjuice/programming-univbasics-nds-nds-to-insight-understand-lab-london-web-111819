@@ -17,5 +17,5 @@ def print_first_directors_movie_titles
     row += 1
   end
   dir
-  
+
 end
