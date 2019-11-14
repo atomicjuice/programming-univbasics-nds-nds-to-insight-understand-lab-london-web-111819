@@ -13,6 +13,7 @@ def print_first_directors_movie_titles
   dir = []
   while row < directors_database.count
     dir << directors_database[0][:movies][0][:title]
+    dir << \n
     row += 1
   end
   require.pry
