@@ -7,9 +7,6 @@ def pretty_print_nds(nds)
    pp nds
 end
 
-def print_first_directors_movie_titles(nds)
-  count = 0
-  while count<directors_database.count
-    puts directors_database
-  end
+def print_first_directors_movie_titles
+  directors_database
 end
