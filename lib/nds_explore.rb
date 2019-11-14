@@ -10,7 +10,7 @@ end
 def print_first_directors_movie_titles(nds)
   row = 0
   while row < nds.count
-    dir = nds [0][0]
+    dir = nds [0][0][0]
     row += 1
   end
   dir
