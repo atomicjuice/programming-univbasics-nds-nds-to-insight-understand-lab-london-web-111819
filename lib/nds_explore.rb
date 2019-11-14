@@ -9,13 +9,13 @@ end
 require "pry"
 def print_first_directors_movie_titles
   # puts pp directors_database[0][:movies][0][:title]
-  row = 0
-  dir = []
-  while row < directors_database.count
-  puts  dir << directors_database[0][:movies][0][:title]
-    row += 1
-  end
-  require.pry
+  # row = 0
+  # dir = []
+  # while row < directors_database.count
+  # puts  dir << directors_database[0][:movies][0][:title]
+  #   row += 1
+  # end
+  # require.pry
 
   dir
 
