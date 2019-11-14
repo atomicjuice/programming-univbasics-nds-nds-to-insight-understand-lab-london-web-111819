@@ -8,6 +8,7 @@ def pretty_print_nds(nds)
 end
 require "pry"
 def print_first_directors_movie_titles
+  dir = []
    dir << (pp directors_database[0][:movies][0][:title])
   puts dir
   # row = 0
