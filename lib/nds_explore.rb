@@ -8,7 +8,8 @@ def pretty_print_nds(nds)
 end
 require "pry"
 def print_first_directors_movie_titles
-  puts pp directors_database[0][:movies][0][:title]
+  puts dir << pp directors_database[0][:movies][0][:title]
+  puts dir
   # row = 0
   # dir = []
   # while row < directors_database.count
