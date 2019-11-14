@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
   row = 0
   dir = []
   while row < directors_database[0][:movies].count
-  puts dir << directors_database[0][:movies][row][:title]
+   dir << directors_database[0][:movies][row][:title]
     row += 1
   end
   # require.pry
