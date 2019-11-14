@@ -7,10 +7,10 @@ def pretty_print_nds(nds)
    pp nds
 end
 
-def print_first_directors_movie_titles(nds)
+def print_first_directors_movie_titles
   row = 0
-  while row < nds.count
-    dir = nds [0][0][0]
+  while row < directors_database.count
+    dir = directors_database [0]
     row += 1
   end
   dir
