@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   # dir = []
   #  dir << (pp directors_database[0][:movies][1][:title])
   # puts dir
-  puts directors_database[0][:movies]
+  puts directors_database[0][:movies][0]
   # row = 0
   # dir = []
   # while row < directors_database[0][:movies].count
