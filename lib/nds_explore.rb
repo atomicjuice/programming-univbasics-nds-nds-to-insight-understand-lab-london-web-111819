@@ -6,7 +6,7 @@ def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
    pp nds
 end
-
+require "pry"
 def print_first_directors_movie_titles
   # puts pp directors_database[0][:movies][0][:title]
   row = 0
@@ -16,4 +16,5 @@ def print_first_directors_movie_titles
     row += 1
   end
   dir
+  require.pry
 end
