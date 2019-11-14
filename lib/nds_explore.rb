@@ -9,8 +9,8 @@ end
 
 def print_first_directors_movie_titles(nds)
   row = 0
-  while row < directors_database.count
-    dir = directors_database [0]
+  while row < nds.count
+    dir = nds [0]
     row += 1
   end
   dir
