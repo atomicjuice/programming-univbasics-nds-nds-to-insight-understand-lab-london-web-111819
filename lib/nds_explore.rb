@@ -11,6 +11,7 @@ def print_first_directors_movie_titles
   row = 0
   while row < directors_database.count
     dir = directors_database [0]
+    row += 1
   end
-  row += 1
+  dir
 end
